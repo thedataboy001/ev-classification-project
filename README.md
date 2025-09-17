@@ -1,4 +1,4 @@
-# Problem
+## Problem
 
 How can vehicle and geographic characteristics be used to classify electric vehicles into Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs), and what do adoption trends over time reveal about the transition from hybrid to fully electric technology in Washington State? 
 
@@ -12,9 +12,21 @@ How can vehicle and geographic characteristics be used to classify electric vehi
 
 ### Methodology
 
-Data Collection
+#### Data Collection
 
 EV Population dataset (Washington State) 
 
 https://data.wa.gov/Transportation/Electric-Vehicle-Population-Data/f6w7-q2d2/about_data
+
+#### Data Preparation
+
+Define the target variable: EV Type (BEV vs PHEV)
+Encoding categorical variables
+split dataset into train/test sets
+
+#### Classification Analysis
+
+Apply Random Forest and KNN classification model
+Evaluate performance (accuracy, precision, recall, F1-score)
+Use feature importance to interpret key drivers of BEV vs PHEV classification
 
